@@ -7,14 +7,13 @@
 
 body{
     display: flex;
-    flex-direction: column;
     gap: 8rem;
+    flex-direction: column;
     align-items: center;
-    padding: 8rem 0;
 }
 
 img{
-    width: 90%;
+    max-width: 100%;
 }
 
 html.lenis, html.lenis body {
