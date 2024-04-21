@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="lenis lenis-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Together - You will never train alone</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+</head>
+
+<body>
+
+    <img src="src/img/1.jpg" />
+    <img src="src/img/2.jpg" />
+    <img src="src/img/3.jpg" />
+    <img src="src/img/4.jpg" />
+    <img src="src/img/5.jpg" />
+    <img src="src/img/6.jpg" />
+    <img src="src/img/7.jpg" />
+    <img src="src/img/8.jpg" />
+    <img src="src/img/9.jpg" />
+    <img src="src/img/10.jpg" />
+    <img src="src/img/11.jpg" />
+    <img src="src/img/12.jpg" />
+    <img src="src/img/13.jpg" />
+    <img src="src/img/14.jpg" />
+
+    <script>
+        const lenis = new Lenis()
+
+        lenis.on('scroll', (e) => {
+
+        })
+
+        function raf(time) {
+            lenis.raf(time)
+            requestAnimationFrame(raf)
+        }
+
+        requestAnimationFrame(raf)
+
+    </script>
+</body>
+
+
+</html>
